@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="quiz game.jpg" type="image/x-icon">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>Quiz GAMES</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="main shadow-lg ">
+                <h3 class="question text-capitalize text-danger font-monospace text-md">here is question</h3>
+                <ul class="">
+                    <li>
+                        <input type="radio" name="ans" class="answer" id="ans1">
+                        <label for="ans1" id="option1">Option </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="ans" class="answer" id="ans2">
+                        <label for="ans2" id="option2">Option </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="ans" class="answer" id="ans3">
+                        <label for="ans3" id="option3">Option </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="ans" class="answer" id="ans4">
+                        <label for="ans4" id="option4">Option </label>
+                    </li>
+                </ul>
+                <button type="button" class="prev" disabled><ion-icon name="arrow-back-circle-outline"
+                        id="back">back</ion-icon>
+                </button>
+
+                <button type="submit" class="btn btn-success" class="showArea">submit</button>
+                <div id="showScore" class="scoreArea"></div>
+            </div>
+        </div>
+
+        <script src="index.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+
+</html>
